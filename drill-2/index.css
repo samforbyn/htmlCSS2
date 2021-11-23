@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#firstBox {
+    display: inline-block;
+    position: relative;
+    left: 10vw;
+    height: 20vh;
+    width: 80vw;
+    border: solid 3px black;
+    align-items: center;
+}
+
+#secondBox {
+    position: relative;
+    border: dotted 3px black;
+    height: 20vh;
+    width: 80vw;
+    left: 10vw;
+    top: 2rem;
+}
+
+#lilBluBox {
+    position: relative;
+    height: 7rem;
+    width: 2rem;
+    background-color: blue;
+    left: 1rem;
+    bottom: 1rem;
+    top: 3rem;
+}
+
+#bigGreenBox {
+    position: relative;
+    background-color: green;
+    height: 9rem;
+    width: 22rem;
+    left: 5rem;
+    bottom: 6rem;
+}
+
+#blooball {
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    background-color: lightblue;
+    border-radius: 50%;
+    left: 30rem;
+    bottom: 15rem;
+}
+
+#boxInBox {
+    position: relative;
+    background-color: bisque;
+    height: 80%;
+    width: 90%;
+    left: 5rem;
+    top: 1rem;
+    box-shadow: 10px 10px 5px rgb(73, 72, 72);
+}
+
+#thirdBox {
+    position: relative;
+    height: 30vh;
+    width: 50vh;
+    background-color: rgb(253, 253, 253);
+    top: 4rem;
+    left: 35vw;
+    box-shadow: 2px 2px 2px rgb(160, 145, 145);
+}
+
+#thirdBox > p {
+    position: relative;
+    font-family: bahnschrift light;
+    font-size: 6vh;
+    text-align: center;
+    top: 7vh;
+}

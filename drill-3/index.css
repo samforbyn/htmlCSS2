@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#topBox {
+    background-color: rgb(171, 196, 221);
+    height: 7rem;
+    width: 100%;
+}
+
+#lilTopBox {
+    position: relative;
+    background-color: rgb(124, 124, 236);
+    height: 4rem;
+    width: 4rem;
+    top: 1rem;
+    left: 1rem;
+}
+
+#text {
+    position: relative;
+    top: 3rem;
+    bottom: 3rem;
+}
+
+#blue {
+    background-color: rgb(113, 113, 196);
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+
+}
+
+#cyan {
+    background-color: rgb(205, 205, 240);
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+
+}
+
+#skin {
+    background-color: rgb(252, 215, 159);
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+}
+#yellow {
+    background-color: rgb(215, 226, 115);
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+}
+
+
